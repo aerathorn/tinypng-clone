@@ -21,7 +21,8 @@ export default function HomePage() {
 
   return (
     <main className='min-h-screen flex flex-col items-center justify-center p-4 bg-gray-50'>
-      <h1 className='text-3xl font-bold mb-6'>ZippyImage - Image Compressor</h1>
+      - <h1 className='text-3xl font-bold mb-6'>ZippyImage - Image Compressor</h1>
+	+ <h1 className='text-3xl font-bold mb-6'>ZippyImage - Fast Image Compressor</h1>
       <input type='file' accept='image/*' onChange={upload} />
       {loading && <p>Compressing...</p>}
       {compressed && <img src={compressed} alt='Compressed' className='mt-4 max-h-64' />}
