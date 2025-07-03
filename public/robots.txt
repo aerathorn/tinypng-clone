@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tinypng-clone-nkdt.vercel.app/sitemap.xml
